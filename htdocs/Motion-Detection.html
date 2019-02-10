@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title>Motion Detection</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Motion-Design.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+
+<body>
+            
+<!-- Navigation Bar -->
+<div class="top">
+  <div class="wbar red card left-align large">
+    <a class="bar-item button hide-medium hide-large right padding-large hover-white large red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="bar-item button padding-large white">Home</a>
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bar-block white hide hide-large hide-medium large">
+    <a href="#" class="bar-item button padding-large">Link 1</a>
+    <a href="#" class="bar-item button padding-large">Link 2</a>
+    <a href="#" class="bar-item button padding-large">Link 3</a>
+    <a href="#" class="bar-item button padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="container red center" style="padding:128px 16px">
+  <h1 class="margin jumbo">Web Cam Picture Logging</h1>
+  <p class="xlarge">Uses HTML, Java, Javascript, and CSS</p>
+  <a class="button black padding-large large margin-top" href="#down">See Image!</a>
+  <div id="down">
+  </div>
+  
+</header>
+
+<!-- First Grid -->
+<div class="row-padding padding-64 container">
+  <div class="content">
+    <div class="twothird">
+      <h1></h1>
+      <h2 class="padding-32">Picture Taken after Motion Detection:</h2>    
+    <input type="file" id="upl" style="display:none"/>
+
+    <img src="image.jpg" alt="Motion Detection">
+
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
