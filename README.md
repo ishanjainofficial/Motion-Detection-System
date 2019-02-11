@@ -1,4 +1,8 @@
 # Motion-Detection-System
+
+APPLICATION:
+Have you ever been in the fear of someone stealing your computer and accessing your files? With this project, a user is enabled to monitor any intrusion or motion detected by his/her computer webcam. Security has never been simpler before!
+
 A security system to detect motion and capture a photo. 
 The image is then sent to a MySQL server for processing. 
 The server stores all the images taken by the client's webcam at a 1000 millisecond interval and process it in realtime to 
